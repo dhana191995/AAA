@@ -25,5 +25,6 @@ public class Action2 {
 		JavascriptExecutor js=(JavascriptExecutor)driver;
 		WebElement login = driver.findElement(By.xpath("(//div[@class='box'])[2]"));
 	js.executeScript("arguments[0].scrollIntoView", login);	
+	System.out.println("hh");
 	}
 	}
